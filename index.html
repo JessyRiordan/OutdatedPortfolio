@@ -3,38 +3,171 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title></title>
+        <title>Jessy Riordan</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
-
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
-        <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+      <div class="container">
+  <!--       <div class="navbar navbar-default navbar-fixed-side navbar-fixed-side-left">
+      <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+      </ul>
+  </div> -->
+        <div class="name jumbotron">
+          <h1>Jessy Riordan<br>
+            <small>Front End Engineer</small>
+          </h1>
+          <img src="app/images/me.jpg" class="img-responsive">
+          <div class="social-links">
+            <a href="mailto:jessy.riordan@gmail.com">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-envelope-o fa-stack-1x"></i>
+              </span>
+            </a>
+            <a href="https://github.com/JessyRiordan" target="_blank">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-github fa-stack-1x"></i>
+              </span>
+            </a>
+            <a href="https://twitter.com/JessyRiordan" target="_blank">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-twitter fa-stack-1x"></i>
+              </span>
+            </a>
+            <a href="https://www.linkedin.com/pub/jessy-riordan/65/6a7/307" target="_blank">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-linkedin fa-stack-1x"></i>
+              </span>
+            </a>
+          </div> <!--social-links -->
+        </div> <!-- page-header -->
 
-        <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+        <div class="projects jumbotron">
+          <h1>Recent Projects</h1>
+          <div class="row">
+            <div class="col-sm-6 col-md-5 col-md-offset-1">
+              <div class="beautymark thumbnail">
+                <img class="img-responsive" src="app/images/BeautyMark.png">
+                <div class="caption">
+                  <h2>BeautyMark</h2>
+                  <p>This amazing web app will help YOU track, catalog, and rate YOUR beauty collection.
+                    It will help YOU ensure that YOU do not waste time and money.<br>
+                    <br>Built using: HTML5, SASS, Bootstrap, AngularJS, and Firebase.</p>
+                  <p><a href="https://beautymark.firebaseapp.com" class="btn btn-primary btn-lg" target="_blank">Live</a>
+                    <a href="https://github.com/JessyRiordan/beautymark" class="btn btn-primary btn-lg" target="_blank">Github</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-5">
+              <div class="beautymark thumbnail">
+                <img class="img-responsive square" src="app/images/chess.png">
+                <div class="caption">
+                  <h2>TIY-Chessboard</h2>
+                  <p>This chessboard was built based off Kasparov vs. Karpov during week 3 of The Iron Yard.<br>
+                    <br>Built using: HTML5, CSS, and jQuery.</p>
+                  <p><a href="https://github.com/JessyRiordan/TIY-Chessboard" class="btn btn-primary btn-lg" target="_blank">Github</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
+        <div class="about jumbotron">
+          <h1>About Me</h1>
+          <p>Hello, my name is Jessy!
+            <br>I started my career as an educator. As education became increasingly more technology
+            focused I became more interested in technology rather than education. When the opportunity
+            presented itself for a career switch I enrolled in The Iron Yard, a 12-week intensive bootcamp,
+            for Front End Engineering. For more information on my work experience, please click below.</p>
+            <a href="app/pdfs/Jessy_Riordan_Resume_FEE.pdf" class="btn btn-primary btn-lg"target="_blank">Resume PDF</a>
+        </div>
 
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='https://www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
-        </script>
+        <div class="contact jumbotron">
+          <h1>Let's Connect</h1>
+          <p>I am currently looking for a Junior Front End Developer position in the Orlando, FL area to
+          utilize the skills I have acquired and continue to learn and acquire new skills. I am willing to
+          relocate for the right position.</p>
+          <div class="social-links">
+            <a href="mailto:jessy.riordan@gmail.com">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-envelope-o fa-stack-1x"></i>
+              </span>
+              <small>jessy.riordan@gmail.com</small>
+            </a>
+            <a href="tel:17038193007">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-phone fa-stack-1x"></i>
+              </span>
+              <small>703.819.3007</small>
+            </a>
+            <a href="https://github.com/JessyRiordan" target="_blank">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-github fa-stack-1x"></i>
+              </span>
+              <small>JessyRiordan</small>
+            </a>
+            <a href="https://twitter.com/JessyRiordan" target="_blank">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-twitter fa-stack-1x"></i>
+              </span>
+              <small>JessyRiordan</small>
+            </a>
+            <a href="https://www.linkedin.com/pub/jessy-riordan/65/6a7/307" target="_blank">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-linkedin fa-stack-1x"></i>
+              </span>
+              <small>Jessy (Ellington) Riordan</small>
+            </a>
+          </div> <!--social-links -->
+        </div>
+
+        <div class="footer">
+          <div class="social-links">
+            <a href="mailto:jessy.riordan@gmail.com">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+            <a href="https://github.com/JessyRiordan" target="_blank">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+            <a href="https://twitter.com/JessyRiordan" target="_blank">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+            <a href="https://www.linkedin.com/pub/jessy-riordan/65/6a7/307" target="_blank">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </div> <!--social-links -->
+        </div> <!--footer -->
+      </div> <!-- container -->
     </body>
 </html>
