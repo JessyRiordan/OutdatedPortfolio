@@ -19,7 +19,6 @@
         <script src="js/main.js"></script>
     </head>
     <body>
-      <div id="header">Header</div>
       <div id="footer">
         <div class="social-links">
           <a href="mailto:jessy.riordan@gmail.com">
@@ -49,72 +48,45 @@
         </div> <!--social-links -->
       </div> <!--footer -->
       <div id="fullpage">
-        <div class="section">
-          <div class="name jumbotron">
+        <div class="section" id="first">
+          <div class="name">
             <h1>Jessy Riordan<br>
               <small>Front End Engineer</small>
             </h1>
             <img src="img/me.jpg" class="img-responsive">
-            <div class="social-links">
-              <a href="mailto:jessy.riordan@gmail.com">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-envelope-o fa-stack-1x"></i>
-                </span>
-              </a>
-              <a href="https://github.com/JessyRiordan" target="_blank">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-github fa-stack-1x"></i>
-                </span>
-              </a>
-              <a href="https://twitter.com/JessyRiordan" target="_blank">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-twitter fa-stack-1x"></i>
-                </span>
-              </a>
-              <a href="https://www.linkedin.com/pub/jessy-riordan/65/6a7/307" target="_blank">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-linkedin fa-stack-1x"></i>
-                </span>
-              </a>
-            </div> <!--social-links -->
-          </div> <!-- page-header -->
-        </div>
-        <div class="section">
-          <div class="projects jumbotron">
+          </div> <!-- name -->
+        </div> <!-- section first -->
+        <div class="section" id="second">
             <h1>Recent Projects</h1>
-            <div class="row">
-              <div class="col-sm-6 col-md-5 col-md-offset-1">
-                <div class="beautymark thumbnail">
-                  <img class="img-responsive" src="img/BeautyMark.png">
-                  <div class="caption">
-                    <h2>BeautyMark</h2>
-                    <p>This amazing web app will help YOU track, catalog, and rate YOUR beauty collection.
-                      It will help YOU ensure that YOU do not waste time and money.<br>
-                      <br>Built using: HTML5, SASS, Bootstrap, AngularJS, and Firebase.</p>
-                    <p><a href="https://beautymark.firebaseapp.com" class="btn btn-primary btn-lg" target="_blank">Live</a>
-                      <a href="https://github.com/JessyRiordan/beautymark" class="btn btn-primary btn-lg" target="_blank">Github</a></p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-5">
-                <div class="beautymark thumbnail">
-                  <img class="img-responsive square" src="img/chess.png">
-                  <div class="caption">
-                    <h2>TIY-Chessboard</h2>
-                    <p>This chessboard was built based off Kasparov vs. Karpov during week 3 of The Iron Yard.<br>
-                      <br>Built using: HTML5, CSS, and jQuery.</p>
-                    <p><a href="https://github.com/JessyRiordan/TIY-Chessboard" class="btn btn-primary btn-lg" target="_blank">Github</a></p>
-                  </div>
+            <div class="col-sm-6 col-md-5 col-md-offset-1">
+              <div class="beautymark thumbnail">
+                <img class="img-responsive" src="img/BeautyMark.png">
+                <div class="caption">
+                  <h2>BeautyMark</h2>
+                  <p>This amazing web app will help YOU track, catalog, and rate YOUR beauty collection.
+                    It will help YOU ensure that YOU do not waste time and money.<br>
+                    <br>Built using: HTML5, SASS, Bootstrap, AngularJS, and Firebase.</p>
+                  <p><a href="https://beautymark.firebaseapp.com" class="btn btn-primary btn-lg" target="_blank">Live</a>
+                    <a href="https://github.com/JessyRiordan/beautymark" class="btn btn-primary btn-lg" target="_blank">Github</a></p>
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-        <div class="section">
+            <div class="col-sm-6 col-md-5">
+              <div class="beautymark thumbnail">
+                <img class="img-responsive square" src="img/chess.png">
+                <div class="caption">
+                  <h2>TIY-Chessboard</h2>
+                  <p>This chessboard was built based off Kasparov vs. Karpov during week 3 of The Iron Yard.<br>
+                    <br>Built using: HTML5, CSS, and jQuery.</p>
+                  <p><a href="https://github.com/JessyRiordan/TIY-Chessboard" class="btn btn-primary btn-lg" target="_blank">Github</a></p>
+                </div>
+              </div>
+            </div>
+        </div> <!-- section second -->
+        <div class="section" id="third">
+          <h1>Skills</h1>
+        </div> <!-- section third -->
+        <div class="section" id="fourth">
           <div class="about jumbotron">
             <h1>About Me</h1>
             <p>Hello, my name is Jessy!
@@ -124,9 +96,8 @@
               for Front End Engineering. For more information on my work experience, please click below.</p>
               <a href="img/Jessy_Riordan_Resume_FEE.pdf" class="btn btn-primary btn-lg"target="_blank">Resume PDF</a>
           </div>
-
-        </div>
-        <div class="section">
+        </div> <!-- section fourth -->
+        <div class="section" id="fifth">
           <div class="contact jumbotron">
             <h1>Let's Connect</h1>
             <p>I am currently looking for a Junior Front End Developer position in the Orlando, FL area to
@@ -171,6 +142,6 @@
             </div> <!--social-links -->
           </div>
         </div>
-      </div>
+          </div>
     </body>
 </html>
