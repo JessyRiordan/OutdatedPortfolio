@@ -1,6 +1,6 @@
 {
   "name": "jessyriordan.github.io",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "homepage": "https://github.com/JessyRiordan/jessyriordan.github.io",
   "authors": [
     "Jessy Riordan <jessy.riordan@gmail.com>"
@@ -14,6 +14,6 @@
     "tests"
   ],
   "dependencies": {
-    "bootstrap-sass": "~3.3.5"
+    "fullpage.js": "~2.7.1"
   }
 }
